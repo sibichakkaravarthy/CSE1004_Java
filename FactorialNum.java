@@ -7,6 +7,13 @@ class FactorialNum
 		Scanner in = new Scanner(System.in);
 
 		n = in.nextInt();
+		
+		/*do
+		{
+			fact = fact * i;
+			System.out.println(" The Factorial value of the given number is" + fact);
+			i++;
+		}while (i<=n);*/
 
 		while  (i <= n)
 		{
@@ -14,5 +21,12 @@ class FactorialNum
 			System.out.println(" The Factorial value of the given number is" + fact);
 			i++;
 		}
+
+		/*for (i = 1; i<=n; i++)
+		{
+			fact = fact * i;
+			System.out.println(" The Factorial value of the given number is" + fact);
+			//i++;
+		}*/
 	}
 }

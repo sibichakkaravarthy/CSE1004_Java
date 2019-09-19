@@ -24,7 +24,7 @@ public class SimpleCalculatorWithoutSwitchCase {
 		
 		System.out.print("Enter the mathematical operator to be used: "); //Ask the user to input the mathematical operator to be used
 		sign=in.next().charAt(0); //Receive input from user
-
+		//sign= '+';
 		if (sign == '+' )/*making use of if statement to determine the addition sign*/{
 			ans=fnum + snum;
 			System.out.println(fnum +" "+sign +" "+snum +"= "+" "+ ans );

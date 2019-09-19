@@ -1,9 +1,3 @@
-
-
-
-
-
-
 import java.util.Scanner;
  
 class AddNumbers

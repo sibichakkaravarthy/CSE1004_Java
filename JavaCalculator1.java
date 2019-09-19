@@ -9,7 +9,7 @@ public class JavaCalculator1
         double first = in.nextDouble();
         double second = in.nextDouble();
 
-        System.out.print("Enter an operator (+ =1, - =2, *=3, /=4): ");
+        System.out.print("Enter an operator (+= 1, -= 2, *= 3, /= 4): ");
         //int operator = in.nextInt();
 
         int operator = in.nextInt();
@@ -20,24 +20,28 @@ public class JavaCalculator1
         switch(operator)
         {
             case 1:
+            {
                 result = first + second;
                 break;
+            }
             case 2:
+            {
                 result = first - second;
                 break;
-            case 3:
+            }
+            case 3:{
                 result = first * second;
-                break;
-            case 4:
+                break;}
+            case 4:{
                 result = first / second;
-                break;
+                break;}
             // operator doesn't match any case constant (+, -, *, /)
-            default:
+            default:{
                 System.out.printf("Error! operator is not correct");
-                return;
+                return;}
         }
 
 
-        System.out.printf("Number1 \t"+ first + "\t + "+ operator  + "\tNumber 2 \t"+  second  + "=\t"+  result);
+        System.out.printf("Number1 \t"+ first + "\t "+ operator  + "\tNumber 2 \t"+  second  + "=\t"+  result);
     }
 }

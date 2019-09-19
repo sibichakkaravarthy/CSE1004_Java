@@ -2,7 +2,7 @@ class TypeCasting
 { 
     public static void main(String[] args) 
     { 
-        double d = 100.04;  
+        double d = 100.04; // holds the value of float  
           
         
         long l = (long)d; 

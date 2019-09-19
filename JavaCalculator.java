@@ -21,7 +21,7 @@ public class JavaCalculator
         {
             case '+':
                 result = first + second;
-                break;
+                //break;
             case '-':
                 result = first - second;
                 break;
@@ -34,8 +34,8 @@ public class JavaCalculator
             // operator doesn't match any case constant (+, -, *, /)
             default:
                 System.out.printf("Error! operator is not correct");
-                return;
+                //return;
         }
-        System.out.printf("Number1 \t"+ first + "\t + "+ operator  + "\tNumber 2 \t"+  second  + "=\t"+  result);
+        System.out.printf("Number1 \t"+ first + "\t "+ operator  + "\tNumber 2 \t"+  second  + "=\t"+  result);
     }
 }
